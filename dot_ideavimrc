@@ -22,13 +22,14 @@ map <leader>Q :qa<CR>
 map <leader>n :NERDTreeToggle<CR>
 map <leader>h :set hlsearch!<CR> " toggle search highlight
 map <leader>l :set list!<CR> " toggle list
-
-" search
-nnoremap <leader>fr :action RecentFiles<CR>
-nnoremap <leader>fa :action GotoAction<CR>
-nnoremap <leader>fc :action GotoClass<CR>
-nnoremap <leader>ff :action GotoFile<CR>
-nnoremap <leader>fs :action GotoSymbol<CR>
+map <leader>fr :action RecentFiles<CR>
+map <leader>fa :action GotoAction<CR>
+map <leader>fc :action GotoClass<CR>
+map <leader>ff :action GotoFile<CR>
+map <leader>fs :action GotoSymbol<CR>
+map <leader>fw <S-S><CR>
+map <leader>ca :action ShowIntentionActions<CR>
+map / :action Find<CR>
 
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
