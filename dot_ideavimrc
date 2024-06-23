@@ -30,6 +30,13 @@ map <leader>fs :action GotoSymbol<CR>
 map <leader>fw <S-S><CR>
 map <leader>ca :action ShowIntentionActions<CR>
 map / :action Find<CR>
+map <C-c> :action $Copy<CR>
+map <C-v> :action $Paste<CR>
+map <C-x> :action $Cut<CR>
+map <C-z> :action $Undo<CR>
+map <C-r> :action $Redo<CR>
+map <C-s> :action SaveAll<CR>
+
 
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
